@@ -1,4 +1,5 @@
 /blockchain.py
+env
 env/pyvenv.cfg
 env/Lib/site-packages/easy_install.py
 env/Lib/site-packages/Flask-1.1.2.dist-info/entry_points.txt
@@ -1360,3 +1361,6 @@ env/Scripts/pythonw.exe
 tests/__pycache__/__init__.cpython-39.pyc
 tests/__pycache__/test_pytest.cpython-39-pytest-6.2.2.pyc
 __pycache__/inc_dec.cpython-39.pyc
+tests
+__pycache__
+
