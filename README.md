@@ -12,6 +12,6 @@
 
 # Clone repo and test/run:
 
-  From VSCode or your IDE to dev/test
+  Clone to VSCode or your IDE to dev/test
   
   Deploy to a vm or container instance
