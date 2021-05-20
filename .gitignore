@@ -1357,3 +1357,6 @@ env/Scripts/pip3.9.exe
 env/Scripts/pip3.exe
 env/Scripts/python.exe
 env/Scripts/pythonw.exe
+tests/__pycache__/__init__.cpython-39.pyc
+tests/__pycache__/test_pytest.cpython-39-pytest-6.2.2.pyc
+__pycache__/inc_dec.cpython-39.pyc
