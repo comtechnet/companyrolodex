@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block title %}
+Data - Post the Get for The Filter
+{% endblock %}
+{% block content %}
+<p>Data for: Company File and Search.</p>
+
+{% for key,value in form_data.items() %}
+<h2> {{key}}</h2>
+<p> {{value}}</p>
+{% endfor %}
+<!--   This is valid comment 
+data.where( "( n, i ) => n.city.contains('Wash') " ) ;
+-->
+{% endblock %}

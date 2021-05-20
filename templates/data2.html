@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block title %}
+Data - Post the Get for The Company Filter
+{% endblock %}
+{% block content %}
+<p>Data2 for: Company File and Search.</p>
+
+<ol> 
+    <!-- For loop logic of jinja template -->
+    {%for i in range(0, len)%} 
+      
+        <li>{{CompaniesFiltered[i]}}</li> 
+    {%endfor%} 
+      
+    </ol> 
+<!--   This is valid comment 
+data.where( "( n, i ) => n.city.contains('Wash') " ) ;
+-->
+{% endblock %}
